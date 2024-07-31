@@ -556,35 +556,35 @@ video {
   --tw-contain-style:  ;
 }
 
-.font-\[\"Montserrat\"\]{
-  font-family: "Montserrat";
+.flex{
+  display: flex;
 }
 
-.font-\[\"Fraunces\"\]{
-  font-family: "Fraunces";
+.flex-col{
+  flex-direction: column;
 }
 
-.font-\[\"fraunces\"\]{
-  font-family: "fraunces";
+.items-start{
+  align-items: flex-start;
 }
 
-.font-sans{
-  font-family: Montserrat;
+.items-stretch{
+  align-items: stretch;
 }
 
-.font-serif{
-  font-family: Fraunces;
+.gap-3{
+  gap: 0.75rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.bg-primary-cream{
+  --tw-bg-opacity: 1;
+  background-color: hsl(30 38% 92% / var(--tw-bg-opacity));
 }
 
-.font-bold{
-  font-weight: 700;
+.desktop-image {
+  display: none;
 }
 
-.underline{
-  text-decoration-line: underline;
+.mobile-image{
+  width: auto;
 }
