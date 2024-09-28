@@ -556,24 +556,20 @@ video {
   --tw-contain-style:  ;
 }
 
-.flex{
-  display: flex;
+.m-3{
+  margin: 0.75rem;
 }
 
-.flex-col{
-  flex-direction: column;
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
-.items-start{
-  align-items: flex-start;
+.rounded-tl-lg{
+  border-top-left-radius: 0.5rem;
 }
 
-.items-stretch{
-  align-items: stretch;
-}
-
-.gap-3{
-  gap: 0.75rem;
+.rounded-tr-lg{
+  border-top-right-radius: 0.5rem;
 }
 
 .bg-primary-cream{
@@ -581,10 +577,8 @@ video {
   background-color: hsl(30 38% 92% / var(--tw-bg-opacity));
 }
 
-.desktop-image {
-  display: none;
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.mobile-image{
-  width: auto;
-}

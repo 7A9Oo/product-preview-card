@@ -4,9 +4,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.desktop-image {
-    display: none;
-}
-.mobile-image {
-    @apply w-auto ;
-}
