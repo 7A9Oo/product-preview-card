@@ -837,6 +837,11 @@ video {
   text-decoration-line: line-through;
 }
 
+.hover\:bg-neutral-very-dark-blue:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(212 21% 14% / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px){
   .md\:m-auto{
     margin: auto;
